@@ -1,1 +1,1 @@
-import './RPSTEST.js';
+import '../test/example.test.js';

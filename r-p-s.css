@@ -14,7 +14,9 @@ input {
 
     display: none;
 }
-
+header{
+    text-align: center; 
+}
 
 .hidden {
 
@@ -31,10 +33,10 @@ body {
 .hands {
 
     border: dotted; 
-    background-color: black;  
-
+    background-color: black;    
     color: aliceblue; 
     font-size: 300%; 
+    text-align: center; 
 }
 
 
@@ -60,4 +62,22 @@ h1 {
     color: white; 
     background-color: black;  
 
+}
+
+h3 {
+
+    color: aliceblue; 
+    font-size: 150%; 
+    background-color: black; 
+}
+
+.scoreboard {
+    color: aliceblue; 
+    font-size: 150%; 
+    background-color: black; 
+    text-align: center; 
+}
+
+.button {
+    text-align: center; 
 }

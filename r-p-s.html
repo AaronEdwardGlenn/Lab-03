@@ -29,44 +29,43 @@
 <section class="hands">
 
     <label>
-        Rock
         <input name="choice" value="rock" type="radio" checked />
-        <img class="radio-image" src="./img/rock.jpeg">
+        <img class="radio-image" alt="rock" src="./img/rock.jpeg">
     </label>
 
     <label>
-        Paper
         <input name="choice" value="paper" type="radio" />
-        <img class="radio-image" src="./img/paper.jpeg">
+        <img class="radio-image" alt="paper" src="./img/paper.jpeg">
     </label>
 
     <label>
-        Sissors
         <input name="choice" value="scissors" type="radio" />
-        <img class="radio-image" src="./img/scissors.jpeg">
+        <img class="radio-image" alt="scissors" src="./img/scissors.jpeg">
     </label>
 
 </section>
 
+<div class = 'button'>
 
-<button id="my-button">Play the Game!</button>
-<div id = 'results'><span id="whoWon"></span><div></div>
 
-<section class="game">
-    <div class = "score">
-        <div class ="player-score">
-            <h3>Player</h3>
-            <p>0</p>
-        </div>
-        
-                <div class ="computer-score">
-                    <h3>Computer</h3>
-                    <p>0</p>
-                </div>
+    <button id='play-button'>Play!</button>
+
+</div>
+
+<div class = 'scoreboard'>
+    <div>
+        The computer played: <span id='comp-throw'></span>
     </div>
-</section>
 
-<script type="module" src="r-p-ss.js"></script>
+    <div>
+        Result: <span id='game-result'></span>
+    </div>
+
+    <div>Wins:  <span id='games-won'></span> Losses:  <span id='games-lost'></span> Draws: <span id='games-tied'></span></div>
+
+</div>
+
+<script type="module" src="./r-p-s.js"></script>
 
 </body>
 </html>
